@@ -1,0 +1,47 @@
+.logo-front {
+  width:150px!important;
+  height:auto!important;
+  }
+  .testimonial-layout1 {
+  min-height: 360px;
+  border-radius: 15px;
+  }
+  .project-content .gallery {
+  display:none;
+  }
+  .clients-section {
+  display:none;
+  }
+  .members-section{
+  display:none;
+  }
+  .iframe-contact .btn.btn-style1 {
+  color:#fff!important;
+  border-color:#fff!important;
+  }
+  .project-content .btn.btn-style1 {
+  color:#fff!important;
+  border-color:#fff!important;
+  }
+  @media screen and (max-width: 767px){
+  .footer-section .inner {
+  text-align:left!important;
+  }
+  .header7 .fixed-sidebar-menu {
+  width:100vw!important;
+  }
+  .address-sidebar{
+  bottom:70px!important;
+  }
+}
+/* Add this CSS in your stylesheet */
+.service-boxes-slider,.portfolio-slider  {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-parent,.portfolio-slider-inner {
+  flex: 1 0 calc(30% - 20px); /* Adjust the width of each column as needed */
+  margin: 10px;
+  /* Additional styles as per your design */
+}
